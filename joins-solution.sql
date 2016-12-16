@@ -17,7 +17,6 @@ JOIN products
 ON warehouse_product.product_id = products.id
 	AND products.id = 5;
 
-
 --Which warehouses have diet pepsi?
 SELECT warehouse.id, warehouse.warehouse, warehouse_product.product_id, warehouse_product.warehouse_id, products.id, products.description   FROM warehouse
 JOIN warehouse_product
@@ -30,9 +29,9 @@ ON warehouse_product.product_id = products.id
 
 
 --How many customers do we have?
-
+SELECT COUNT(*) FROM customers;
 
 --How many products do we carry?
-
+SELECT COUNT(*) FROM products;
 
 --What is the total available on-hand quantity of diet pepsi?
