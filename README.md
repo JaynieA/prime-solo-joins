@@ -32,19 +32,23 @@ NOTE: Remember that a many-to-many relationship requires a join table, so the en
 * [x] Create a file called “joins-solution.sql”. You will store your responses to the exercise questions here. NOTE: This is merely a text file with a .sql extension.
 
 ##Exercise
-For each of the following questions
+For each of the following questions:
 
-Write a comment that specifies which question you are answering. (SQL comments are two dashes, followed by text.)
-Write the SQL query that answers the question, below that comment.
-Example question and answer
+* Write a comment that specifies which question you are answering. (SQL comments are two dashes, followed by text.)
+* Write the SQL query that answers the question, below that comment.
+Example question and answer:
+
+```
 -- 0. Get all the users
 SELECT * FROM customers;
-Tasks
-Get all customers and their addresses.
-Get all orders and their line items.
-Which warehouses have cheetos?
-Which warehouses have diet pepsi?
-Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.
-How many customers do we have?
-How many products do we carry?
-What is the total available on-hand quantity of diet pepsi?
+```
+
+###Tasks
+* [x] Get all customers and their addresses.
+* [] Get all orders and their line items.
+* [] Which warehouses have cheetos?
+* [] Which warehouses have diet pepsi?
+* [] Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.
+* [] How many customers do we have?
+* [] How many products do we carry?
+* [] What is the total available on-hand quantity of diet pepsi?
