@@ -48,7 +48,7 @@ SELECT * FROM customers;
 * [x] Get all orders and their line items.
 * [x] Which warehouses have cheetos?
 * [x] Which warehouses have diet pepsi?
-* [] Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.
+* [x] Get the number of orders for each customer. NOTE: It is OK if those without orders are not included in results.
 * [x] How many customers do we have?
 * [x] How many products do we carry?
-* [] What is the total available on-hand quantity of diet pepsi?
+* [x] What is the total available on-hand quantity of diet pepsi?
